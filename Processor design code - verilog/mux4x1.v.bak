@@ -1,0 +1,12 @@
+module mux4x1 (in0,in1,in2,in3,sel,y)
+	input a,b,sel;
+	output reg y;
+	always@(*) begin
+		case(sel)
+		2'b00: y = in0;
+		2'b01: y = in1;
+		2'b10: y = in2;
+		2'b11: y = in3;
+		endcase
+	end
+endmodule

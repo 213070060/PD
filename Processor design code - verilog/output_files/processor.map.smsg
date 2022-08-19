@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at processor.v(88): always construct contains both blocking and non-blocking assignments File: C:/Data/QuartusPrimeWorkingDirectory/Processor Design Till Branch and Jump/Processor design code - verilog/processor.v Line: 88
